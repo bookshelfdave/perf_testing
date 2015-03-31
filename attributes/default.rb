@@ -1,3 +1,5 @@
+node.default['collectd']['python_plugins'] = {}
+node.default['collectd']['version'] = "5.4.1"
 node.default['plugins'] = {
     "syslog" => {
       "config" => { "LogLevel" => "Info" }
