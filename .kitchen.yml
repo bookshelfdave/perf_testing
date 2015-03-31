@@ -12,7 +12,5 @@ suites:
   - name: default
     run_list:
       - recipe[build-essential::default]
-      - recipe[collectd-plugins]
-      - recipe[collectd]
       - recipe[perf_testing::analytics_collectd]
     attributes:
